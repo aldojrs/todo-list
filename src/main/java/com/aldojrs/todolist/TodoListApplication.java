@@ -12,9 +12,8 @@ public class TodoListApplication {
 		builder.headless(false);
 		builder.run(args);
 		
-		org.hsqldb.util.DatabaseManagerSwing.main(
-				new String[] { "--url", "jdbc:hsqldb:mem:testdb", "--noexit", "--user", "sa", "--password", "sa" });
-
+		// Activar para ver cliente de base de datos HSQLDB en memoria.
+		// org.hsqldb.util.DatabaseManagerSwing.main(new String[] { "--url", "jdbc:hsqldb:mem:todolistdb", "--noexit", "--user", "sa", "--password", "sa" });
 	}
 
 }

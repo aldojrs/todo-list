@@ -19,7 +19,7 @@ public class Todo {
 	
 	private String description;
 	
-	private Boolean status;
+	private boolean done;
 	
 	@Lob
 	private byte[] image;
@@ -55,17 +55,17 @@ public class Todo {
 	}
 
 	/**
-	 * @return the status
+	 * @return the done
 	 */
-	public Boolean getStatus() {
-		return status;
+	public boolean getDone() {
+		return done;
 	}
 
 	/**
-	 * @param status the status to set
+	 * @param done the done to set
 	 */
-	public void setStatus(Boolean status) {
-		this.status = status;
+	public void setDone(boolean done) {
+		this.done = done;
 	}
 
 	/**
