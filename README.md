@@ -8,7 +8,7 @@ Build with Maven and Run TodoListApplication class.
 
 # Running the tests
 
-Download [POSTMAN Project](https://github.com/your/project/contributors), import in [POSTMAN](https://www.getpostman.com) and Test.
+Download [POSTMAN Project](https://github.com/aldojrs/todo-list/blob/master/Todos.postman_collection.json), import in [POSTMAN](https://www.getpostman.com) and Test.
 
 # Built With
 
